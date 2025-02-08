@@ -14,12 +14,25 @@ console = Console()
 tui_options = [
     "Start",
     "Settings",
+    "Help",
     "About",
     "Quit",
 ]
 
+about_project = """
+terllminal is a project to bring LLMs from their slow, unresponsive web "apps" to the terminal!
+"""
 def tui():
-	console.print("Hello welcome to terllminal!")
+	console.print("Hello welcome to [bold]terllminal[/bold]!")
 	console.print("Please choose an option:")
-	select(tui_options)
+	option = select(tui_options)
+    if option == "About":
+        console.print(about_project)
+
+def options():
+    if option == "Start":
+        print("hi")
+    elif option == "Settings":
+        print("hit")
+
 tui()
