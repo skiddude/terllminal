@@ -58,6 +58,10 @@ back_option = [
 
 about_project = """
 terllminal is a project to bring LLMs from their slow, unresponsive web "apps" to the terminal!
+project website: https://skiddude.github.io/terllminal
+github repo: https://github.com/skiddude/terllminal
+
+made in saudi arabia with love :D
 """
 
 def query_provider(provider, model, prompt):
